@@ -43,7 +43,7 @@ of other UNIX targets. The simple steps to build QEMU are:
 
   mkdir build
   cd build
-  ../configure
+  ../configure --target-list=x86_64-softmmu --enable-debug --enable-debug-stack-usage --enable-debug-info --enable-kvm 
   make
 
 Additional information can also be found online via the QEMU website:
